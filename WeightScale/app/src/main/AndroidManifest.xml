@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.pomelo.weightscale.ChartActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.pomelo.weightscale.DataActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.pomelo.weightscale.SquareActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.pomelo.weightscale.MoreActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
